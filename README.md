@@ -26,7 +26,7 @@ machines, all machines must have run LogViewer.
 ### Quick start
 
 - Download LogViewer from [Github releases](https://github.com/sevdokimov/log-viewer/releases) and unpack it to any folder.
-  Make sure the machine has installed Java 8 or later.
+  Make sure the machine has installed Java 8 or later, if using debian 11 or 12 use `apt -y install openjdk-17-jdk`.
 - Run `log-viewer-1.0.7/logviewer.sh`
 - Open `http://localhost:8111`. There will be a file chooser to select a log from the file system.
 
